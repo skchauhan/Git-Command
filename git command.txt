@@ -1,0 +1,57 @@
+git config --global user.email "emial id"
+git config --global user.name "username"
+
+============================
+   /****  GIT Command  ****/
+============================
+git status
+git init
+git add filename || -A || .
+ls    // for list file
+git commit -m "msg"
+git remote add origin repoName
+git push origin master   ( send to github )
+git clone repoName
+git pull origin master   ( get to github )
+
+
+============================
+          /****  branch  ****/
+============================
+git branch    //  show all branch
+git branch branchname   // create new branch
+git checkout branchname  // switch branch
+git merge branchname  // merge branch two branch
+git branch -d branchname // delete branch
+
+============================
+          /****  Log  ****/
+============================
+
+git log
+git log -p
+git log --oneline
+git log -2
+git log -i --grep = "text"
+git log -i -G"text in code"
+git log --stat
+git log -i
+
+============================
+          /****  Stash  ****/
+============================
+
+git stash save "name"
+git stash list
+git stash apply (unique ID)
+git stash drop (unique ID)
+git stash pop
+git stash clean
+
+
+
+
+
+
+
+
