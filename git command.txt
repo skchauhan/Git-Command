@@ -1,6 +1,14 @@
 git config --global user.email "emial id"
 git config --global user.name "username"
 
+mddir terminal        // Add folder  
+rm -r terminal        // remove folder 
+cd ~                  // back
+pwd                   // show path
+git diff              // show difference
+git comit -a -m 'added more info' 
+
+
 ============================
    /****  GIT Command  ****/
 ============================
