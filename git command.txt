@@ -1,6 +1,12 @@
 git config --global user.email "emial id"
 git config --global user.name "username"
 
+Chech Remote Connect
+
+git remote -v
+
+
+
 mddir terminal        // Add folder  
 rm -r terminal        // remove folder 
 cd ~                  // back
